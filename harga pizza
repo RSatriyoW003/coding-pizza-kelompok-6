@@ -1,0 +1,24 @@
+# Daftar topping dan harganya
+topping_prices = {
+"Frankfurter": 25000,
+"Meat Monsta": 35000,
+"Super Supreme": 40000,
+"Super Supreme Chicken": 45000
+}
+
+# Daftar crust pizza dan harganya
+crust_prices = {
+"Thin Crust": 15000,
+"Regular Crust": 20000,
+"Thick Crust": 25000
+}
+
+# Daftar ukuran pizza dan harganya
+size_prices = {
+"Small": 30000,
+"Medium": 40000,
+"Large": 50000
+}
+
+# Harga tambahan cheese
+cheese_price = 13000
