@@ -97,6 +97,17 @@ else:
         harga += 104545 #harga jika ukuran large
 
 #fungsi if untuk jika pelanggan yang ingin menambahkan Extra Cheese beserta harga per ukuran pizza
-…
+#print tampilan bill
+print("========================================================")
+print("------------------- pesanan anda -----------------------")
+print("========================================================")
+print(f"Topping : {nama_topping}") #menampilkan nama topping yang dipilih
+print(f"Crust : {nama_crust}") #menampilkan nama crust yang dipilih
+print(f"Ukuran : {nama_ukuran}") #menampilkan nama ukuran yang dipilih
+print(xtraczif) #menampilkan hasil apakah user menambahkan Extra Cheese atau tidak
+print("________________________________________________________")
+print("========================================================")
+print("Total Harga = Rp. {:,.2f}".format(harga)) #menampilkan harga total
+print("Terima Kasih Atas Kunjungan Anda")
 
 
