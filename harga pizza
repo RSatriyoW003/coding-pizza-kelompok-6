@@ -76,4 +76,27 @@ elif crust == 3:
     else:
         harga += 102727 #harga jika ukuran large.ll
 
+#fungsi if untuk harga crust Cheesy Bites beserta dengan harga per ukuran pizza
+elif crust == 4:
+    harga += 57273 #harga crust Cheesy Bites
+    if ukuran == 1:
+        harga += 0 #harga jika ukuran personal
+    elif ukuran == 2:
+        harga += 66364 #harga jika ukuran regular
+    else:
+        harga += 107273 #harga jika ukuran large
+
+#fungsi if untuk harga crust Crown Crust beserta dengan harga per ukuran pizza
+else:
+    harga += 55455 #harga crust Crown Crust
+    if ukuran == 1:
+        harga += 0 #harga jika ukuran personal
+    elif ukuran == 2:
+        harga += 65455 #harga jika ukuran regular
+    else:
+        harga += 104545 #harga jika ukuran large
+
+#fungsi if untuk jika pelanggan yang ingin menambahkan Extra Cheese beserta harga per ukuran pizza
+…
+
 
